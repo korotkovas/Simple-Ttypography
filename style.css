@@ -1,0 +1,113 @@
+@import url("normalize.css");
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+
+.container-wrapper {
+width: 450px;
+margin: 0 auto;
+}
+
+
+.title {
+	text-align: left;
+	font-family: 'Anton', sans-serif;
+
+}
+.first:before {
+	margin: -7px;
+	font-size: 40px;
+	content: open-quote;
+}
+
+
+.first {
+	font-size: 20px;
+	text-align: left;
+	font-family: 'Dancing Script', cursive;
+
+}
+
+.leotekstas {
+	font-family: 'Raleway', sans-serif;
+}
+
+
+.second {
+	font-family: 'Anton', sans-serif;
+}
+
+.empattem {
+	font-family: 'Raleway', sans-serif;
+}
+
+.empattem::first-letter {
+	font-family: 'Great Vibes', cursive;
+	text-transform: capitalize;
+	float: left;
+	padding: 10px;
+	font-size: 2em;
+
+}
+
+.leo {
+	font-family: 'Raleway', sans-serif;
+	display: block;
+	text-align: right;
+}
+
+.tiret {
+	font-family: 'Anton', sans-serif;
+}
+
+
+.tiret2 {
+	text-align:justify;
+	font-family: 'Raleway', sans-serif;
+}
+
+.tiret2::first-letter {
+	font-family: 'Great Vibes', cursive;
+	text-transform: capitalize;
+	float: left;
+	padding: 10px;
+	font-size: 2em;
+}
+
+.sub-title:before {
+	content: "\2713";
+	
+}
+
+.sub-title {
+	font-family: 'Anton', sans-serif;
+}
+
+.demi {
+	text-align: justify;
+	font-family: 'Raleway', sans-serif;
+}
+
+.demi2 {
+	text-align: justify;
+	font-family: 'Raleway', sans-serif;
+}
+
+.heart {
+	text-align: center;
+}
+
+
+.egzuperi {
+	font-size: 20px;
+	text-align: justify;
+	font-family: 'Dancing Script', cursive;
+}
+
+.exupery {
+	padding: 15px;
+	font-family: 'Raleway', sans-serif;
+	display: block;
+	text-align: right;
+}
